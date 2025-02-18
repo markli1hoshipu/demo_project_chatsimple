@@ -1,0 +1,291 @@
+body {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* 头部样式 */
+  .App-header {
+    background: linear-gradient(135deg, #535da1, #2c3e50);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+  }
+  
+  h1 {
+    font-size: 48px; 
+    margin-bottom: 10px; 
+  }
+  
+  p {
+    font-size: 20px; 
+    margin-bottom: 20px; 
+  }
+  
+  .questions-container {
+    margin-top: 20px; 
+    text-align: left;
+    width: 75%; 
+  }
+  
+  .question {
+    background-color: #444;
+    padding: 10px; /* 减少内边距 */
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .question h3 {
+    font-size: 22px; /* 减小问题字体大小 */
+    margin: 0 0 8px 0; /* 减少问题下边距 */
+  }
+  
+  .question ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .question li {
+    background-color: #666;
+    padding: 8px 12px; /* 调整选项内边距 */
+    margin: 4px 0; /* 减少选项外边距 */
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px; /* 减小选项字体大小 */
+  }
+  
+  .question li:hover {
+    background-color: #888;
+  }
+  
+  /* 个人简介 */
+  .about-me {
+    padding: 80px 20px;
+    background: white;
+  }
+  
+  .about-me h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #535da1;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #535da1;
+  }
+  
+  .about-text {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .about-text p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  /* 技能展示 */
+  .skills {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #ff6f61, #ff9a9e);
+    color: white;
+  }
+  
+  .skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .skill h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .skill ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skill li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .skill li:last-child {
+    border-bottom: none;
+  }
+  
+  /* 项目经验 */
+  .projects {
+    padding: 80px 20px;
+    background: white;
+  }
+  
+  .projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #535da1;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project h3 {
+    margin-bottom: 15px;
+    color: #535da1;
+  }
+  
+  .project p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #535da1;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-link:hover {
+    background-color: #3a416e;
+  }
+  
+  /* 教育背景 */
+  .education {
+    padding: 80px 20px;
+    background: #f1f1f1;
+  }
+  
+  .education h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #535da1;
+  }
+  
+  .education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .education-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education-item h3 {
+    margin-bottom: 10px;
+    color: #535da1;
+  }
+  
+  .education-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* 社交媒体链接 */
+  .social-media {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #535da1, #2c3e50);
+    color: white;
+  }
+  
+  .social-media h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #ff6f61;
+  }
+  
+  /* 页脚 */
+  .footer {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
