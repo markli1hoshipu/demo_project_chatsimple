@@ -1,21 +1,9 @@
-Mini Challenge – Web Scraper for Visitor Classification
-
-Description:
-Build a tool that takes a website URL as input, scrapes its content, and classifies visitors based on their interests or industry. Your solution should dynamically generate questions and multiple-choice options to help categorize users visiting the site. We encourage you to be creative and go above and beyond the basic requirements.
-
-For inspiration and a better understanding of our work, please feel free to visit chatsimple.ai.
-
-Technical Requirements:
-
-Frontend: React, Redux
-Backend & Cloud: Python, Flask, AWS
-Please provide the following:
-
-GitHub Repository URL: Ensure your repository is publicly accessible. We’ll be looking for clean code, good practices, and thorough documentation.
-
-Short Video Demo: A brief video (a few minutes) demonstrating your project and explaining your approach.
-
-
+To run the project
+1. Download all files
+2. See setup.sql to initialize database
+3. Create app using React
+   npx create-react-app app-name
+   npm install fingerprintjs2
 -------------------------------------------
 
 
@@ -42,3 +30,22 @@ Collect info -> Store info -> Analyze info
     Record user input, load to database
 
 6. Recheck Step 2, now with some user data.
+
+
+-------------------------------------------
+Mini Challenge – Web Scraper for Visitor Classification
+
+Description:
+Build a tool that takes a website URL as input, scrapes its content, and classifies visitors based on their interests or industry. Your solution should dynamically generate questions and multiple-choice options to help categorize users visiting the site. We encourage you to be creative and go above and beyond the basic requirements.
+
+For inspiration and a better understanding of our work, please feel free to visit chatsimple.ai.
+
+Technical Requirements:
+
+Frontend: React, Redux
+Backend & Cloud: Python, Flask, AWS
+Please provide the following:
+
+GitHub Repository URL: Ensure your repository is publicly accessible. We’ll be looking for clean code, good practices, and thorough documentation.
+
+Short Video Demo: A brief video (a few minutes) demonstrating your project and explaining your approach.
