@@ -3,7 +3,7 @@ To run the project
 2. See setup.sql to initialize database
 3. Create app using React
    npx create-react-app app-name
-   npm install fingerprintjs2
+   npm install @fingerprintjs/fingerprintjs
 -------------------------------------------
 
 
